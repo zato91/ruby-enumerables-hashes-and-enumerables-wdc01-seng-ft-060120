@@ -7,5 +7,7 @@
 # }
 
 def select_winner(passengers)
-  # add the code snippet here!
+  passengers.each do |kids_name, age|
+    puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
+  end
 end
